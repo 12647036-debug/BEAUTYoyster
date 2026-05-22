@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BEAUTY oyster</title>
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="en">
+            <h1>BEAUTY oyster</h1>
+
+            <nav>
+                <a href="#concept">CONCEPT</a>
+                <a href="#eiyou">NUTRIENTS</a>
+                <a href="#recipes">RECIPES</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="concept">
+                <div class="text-box">
+
+                 <h2 class="en">CONCEPT</h2>
+
+                 <p>BEAUTY oysterは、牡蠣の豊富な栄養素に着目した新たなコンセプトの商品です。</p>
+                 <p>牡蠣の貝ひものヒラヒラをヘッドドレスに見立て、女性の美しさを表現。</p>
+                 <p class="en">The BEAUTY oyster is a new concept product that focuses on the rich nutrients found in oysters.</p>
+                 <p class="en">The frills of the oyster's mantle are likened to a headdress, representing the beauty of women.</p>
+             </div>
+             <p><img src="img/16a2bbdee56ef2cbc31fe3df79f23bb605ebf370a21143cf4437649d503de215.png" class="photo"></p>
+            </section>
+
+            <section id="eiyou">
+                <h2 class="en">NUTRIENTS</h2>
+
+                <p>牡蠣には、さまざまな栄養素が豊富に含まれています。</p>
+                <p>肌の健康や免疫力の向上に役立ちます。</p>
+                <p class="en">Oysters are rich in nutrients.</p>
+                <p class="en">These nutrients help improve skin health and boost the immune system.</p>
+
+                <section class="nutrition-map">
+
+                  <div class="nutrition-box">
+                      <h3>亜鉛</h3>
+                      <p>
+                       肌や髪の健康維持をサポート。
+                       免疫機能にも関わる栄養素。
+                     </p>
+                  </div>
+
+                  <div class="nutrition-box">
+                      <h3>鉄分</h3>
+                      <p>
+                        酸素を全身に運び、
+                        貧血予防をサポート。
+                      </p>
+                  </div>
+
+                  <div class="nutrition-box">
+                      <h3>タウリン</h3>
+                      <p>
+                        疲労回復や
+                        肝機能サポートで知られる成分。
+                      </p>
+                  </div>
+
+                  <div class="nutrition-box">
+                     <h3>グリコーゲン</h3>
+                     <p>
+                      エネルギー源となり、
+                       スタミナ維持を助ける。
+                     </p>
+                  </div>
+
+             </section>
+
+                <p>日常的に摂取することで、健康的な生活を目指すことができます。</p>
+                <p class="en">By consuming oysters regularly, you can aim for a healthy lifestyle.</p>
+
+            </section>
+
+            <section id="recipes">
+                <h2 class="en">RECIPES</h2>
+
+                <p>BEAUTY oysterを使ったレシピをご紹介します。</p>
+                <p>簡単に作れる美味しい料理で、牡蠣の栄養を楽しみましょう！</p>
+                <p class="en">Here are some recipes using BEAUTY oyster.</p>
+                <p class="en">Enjoy delicious dishes that are easy to make and packed with the nutrients of oysters!</p>
+
+                <p id="check">↓クリックしてレシピ詳細をcheck！</p>
+
+                <div class="recipes-box">
+                    <div class="recipe-item" onclick="openModal()">
+                        <img src="img/7B18AD42-C265-4D0C-8101-8CA34340D22C.png" alt="牡蠣のグラタン">
+                        <h3>牡蠣のグラタン</h3>
+                        <p>クリーミーなソースと牡蠣の旨味が絶妙な一品。</p>
+                    </div>
+
+                    <div id="recipe-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <h2>牡蠣のグラタン</h2>
+                            <img src="img/7B18AD42-C265-4D0C-8101-8CA34340D22C.png" alt="牡蠣のグラタン">
+                          <h4>材料</h4>
+                           <ul class="zairyou-list">
+                            <li>
+                                <span>BEAUTY oyster</span>
+                                <span>200g</span>
+                            </li>
+                            <li>
+                                <span>ホワイトソース</span>
+                                <span>200ml</span>
+                            </li>
+                            <li>
+                                <span>とろけるチーズ</span>
+                                <span>100g</span>
+                            </li>
+                            <li>
+                                <span>パン粉</span>
+                                <span>適量</span>
+                            </li>
+                            <li>
+                                <span>塩・胡椒</span>
+                                <span>少々</span>
+                            </li>
+                           </ul>
+
+                         <h4>作り方</h4>
+                          <ol>
+                            <li>BEAUTY oysterを軽く塩茹でし、水気を切る。</li>
+                            <li>耐熱皿にホワイトソースを敷き、BEAUTY oysterを並べる。</li>
+                            <li>とろけるチーズを全体に散らし、パン粉をふりかける。</li>
+                            <li>オーブンで200度で約15分焼き、表面がこんがりとするまで焼く。</li>
+                            <li>完成！熱いうちにお召し上がりください。</li>
+                        </ol>
+                       </div>
+                    </div>
+
+                  <div class="recipe-item" onclick="openModal2()">
+                        <img src="img/1DFBCCD5-3EB3-412D-AE23-EE9DDB72B225.png" alt="牡蠣の炊き込みご飯">
+                        <h3>牡蠣の炊き込みご飯</h3>
+                        <p>牡蠣の風味がご飯に染み込んだ、シンプルながら美味しい料理。</p>
+                    </div>
+
+                    <div id="recipe-modal-2" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal2()">&times;</span>
+                            <h2>牡蠣の炊き込みご飯</h2>
+                            <img src="img/1DFBCCD5-3EB3-412D-AE23-EE9DDB72B225.png" alt="牡蠣の炊き込みご飯">
+                            <h4>材料</h4>
+                            <ul class="zairyou-list">
+                                <li>
+                                    <span>BEAUTY oyster</span>
+                                    <span>200g</span>
+                                </li>
+                                <li>
+                                    <span>米</span>
+                                    <span>2合</span>
+                                </li>
+                                <li>
+                                    <span>醤油</span>
+                                    <span>大さじ2</span>
+                                </li>
+                                <li>
+                                    <span>みりん</span>
+                                    <span>大さじ1</span>
+                                </li>
+                                <li>
+                                    <span>酒</span>
+                                    <span>大さじ1</span>
+                                </li>
+                                <li>
+                                    <span>水</span>
+                                    <span>360ml</span>
+                                </li>
+                        </ul>
+
+                        <h4>作り方</h4>
+                        <ol>
+                            <li>BEAUTY oysterを軽く塩茹でし、水気を切る。</li>
+                            <li>炊飯器に洗った米、醤油、みりん、酒、水を入れて混ぜる。</li>
+                            <li>BEAUTY oysterを上にのせて炊飯器のスイッチを入れる。</li>
+                            <li>炊き上がったら全体を軽く混ぜて完成！お好みで刻みネギを散らしてお召し上がりください。</li>
+                        </ol>
+                        </div>
+                    </div>
+
+                    <div class="recipe-item" onclick="openModal3()">
+                        <img src="img/9AC5DFE0-72C4-43CA-ACEA-598739039A35.png" alt="牡蠣のバター焼き">
+                        <h3>牡蠣のバター焼き</h3>
+                        <p>バターの香りと牡蠣の旨味が口いっぱいに広がる一品。</p>
+                    </div>
+
+                    <div id="recipe-modal-3" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal3()">&times;</span>
+                            <h2>牡蠣のバター焼き</h2>
+                            <img src="img/9AC5DFE0-72C4-43CA-ACEA-598739039A35.png" alt="牡蠣のバター焼き">
+                            <h4>材料</h4>
+                            <ul class="zairyou-list">
+                                <li>
+                                    <span>BEAUTY oyster</span>
+                                    <span>200g</span>
+                                </li>
+                                <li>
+                                    <span>バター</span>
+                                    <span>20g</span>
+                                </li>
+                                <li>
+                                    <span>にんにく</span>
+                                    <span>1片（みじん切り）</span>
+                                </li>
+                                <li>
+                                    <span>醤油</span>
+                                    <span>大さじ1</span>
+                                </li>
+                                <li>
+                                    <span>塩・胡椒</span>
+                                    <span>少々</span>
+                                </li>
+                            </ul>
+
+                        <h4>作り方</h4>
+                        <ol>
+                            <li>BEAUTY oysterを軽く塩茹でし、水気を切る。</li>
+                            <li>フライパンにバターを溶かし、にんにくを炒める。</li>
+                            <li>香りが立ったらBEAUTY oysterを加え、醤油を回しかける。</li>
+                            <li>塩・胡椒で味を調え、全体に火が通るまで炒める。</li>
+                            <li>完成！熱々のうちにお召し上がりください。</li>
+                        </ol>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+                
+        </main>
+
+        <footer>
+            <address>お問い合わせ: <a href="mailto:12647036@stdt.tamabi.ac.jp">12647036@stdt.tamabi.ac.jp</a></address>
+                <p class="en">&copy; 2026 BEAUTY oyster. All rights reserved.</p>
+        </footer>
+
+       <script>
+
+function openModal(){
+
+  document
+    .getElementById("recipe-modal")
+    .classList.add("active");
+
+}
+
+function closeModal(){
+
+  document
+    .getElementById("recipe-modal")
+    .classList.remove("active");
+
+}
+
+function openModal2(){
+
+  document
+    .getElementById("recipe-modal-2")
+    .classList.add("active");
+
+}
+
+function closeModal2(){
+
+  document
+    .getElementById("recipe-modal-2")
+    .classList.remove("active");
+
+}
+
+function openModal3(){
+
+  document
+    .getElementById("recipe-modal-3")
+    .classList.add("active");
+
+}
+
+function closeModal3(){
+
+  document
+    .getElementById("recipe-modal-3")
+    .classList.remove("active");
+
+}
+</script> 
+    </body>
+</html>
